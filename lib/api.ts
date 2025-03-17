@@ -58,6 +58,8 @@ export type Tournament = {
 }
 
 export type Game = {
+  topPlayers: any
+  upcomingTournaments: any
   id: string
   name: string
   slug: string
